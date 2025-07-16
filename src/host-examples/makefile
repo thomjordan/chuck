@@ -1,11 +1,12 @@
 ############################# COMPILER CONFIGURATION ###################################
 # what to build (add additional examples here)
 HOST_EXES= \
-	example-1-minimal \
-	example-2-audio \
-	example-3-globals \
-	example-4-shreds \
-	example-5-custom-api
+	chuck-stdout 
+#	example-1-minimal \
+#	example-2-audio \
+#	example-3-globals \
+#	example-4-shreds \
+#	example-5-custom-api
 
 # where to find top-level chuck
 CHUCK_DIR=../../../chuck
