@@ -1,6 +1,6 @@
 # ChucK [![macOS - build & unit tests](https://github.com/ccrma/chuck/actions/workflows/macos-build-unit-tests.yml/badge.svg)](https://github.com/ccrma/chuck/actions/workflows/macos-build-unit-tests.yml) [![Linux - build & unit tests](https://github.com/ccrma/chuck/actions/workflows/linux-build-unit-tests.yml/badge.svg)](https://github.com/ccrma/chuck/actions/workflows/linux-build-unit-tests.yml) [![Windows - build & unit tests](https://github.com/ccrma/chuck/actions/workflows/win-build-unit-tests.yml/badge.svg)](https://github.com/ccrma/chuck/actions/workflows/win-build-unit-tests.yml)
 
-## chuck-stdout: - a variant which outputs audio as raw bytes via stdout, for use with pw-cat & Pipewire on Linux.
+## A variant which outputs audio as raw bytes via stdout, for use with pw-cat & Pipewire on Linux.
 To build:
 ```
 cd src/host-examples
