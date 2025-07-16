@@ -1,6 +1,13 @@
 # ChucK [![macOS - build & unit tests](https://github.com/ccrma/chuck/actions/workflows/macos-build-unit-tests.yml/badge.svg)](https://github.com/ccrma/chuck/actions/workflows/macos-build-unit-tests.yml) [![Linux - build & unit tests](https://github.com/ccrma/chuck/actions/workflows/linux-build-unit-tests.yml/badge.svg)](https://github.com/ccrma/chuck/actions/workflows/linux-build-unit-tests.yml) [![Windows - build & unit tests](https://github.com/ccrma/chuck/actions/workflows/win-build-unit-tests.yml/badge.svg)](https://github.com/ccrma/chuck/actions/workflows/win-build-unit-tests.yml)
 
-
+## chuck-stdout: - a variant which outputs audio as raw bytes via stdout, for use with pw-cat & Pipewire on Linux.
+To build:
+```
+cd src/host-examples
+make linux-alsa
+```
+ Thanks to Aaron Krister Johnson for creating the initial version.
+ 
 ## Strongly-timed Music Programming Language  
 **[ChucK](https://chuck.stanford.edu/)** is a programming language for real-time sound synthesis and music creation. It is open-source and freely available on macOS, Windows, and Linux. ChucK presents a unique time-based, concurrent programming model that is precise and expressive (we call this _strongly-timed_), with dynamic control rates and the ability to add and modify code on-the-fly. In addition, ChucK supports MIDI, OpenSoundControl, HID devices, and multi-channel audio. It's fun and easy to learn, and offers composers, researchers, and performers a powerful programming tool for building and experimenting with complex audio synthesis/analysis programs, and real-time interactive music.
 
